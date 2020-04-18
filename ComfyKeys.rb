@@ -1,18 +1,3 @@
-# vetev Latest, kde je uchovavan posledni upraveny profil
-# vetev Main, kde jsou general hotkeys
-# snadna skalovatelnost pro coop commandery
-# vetev pro kazdou rasu, verzovana
-
-
-# pro kazdou slozku: najde nejcerstvejsi file, ten zpropaguje do vsech slozek jako Latest
-# vyhodi prompt, na jakou vetev ji chci zapsat a jake verzovaci cislo
-# pak provede
-
-# budu potrebovat:
-# prepinani mezi adresari
-# zjistovat date_modified o souborech
-# mazat soubory
-# kopirovat soubory
 require 'fileutils'
 # User's account number (eg. 12345678)
 $profile_in_use = ""
